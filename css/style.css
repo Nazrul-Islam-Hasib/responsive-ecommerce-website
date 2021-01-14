@@ -108,6 +108,9 @@ header{
 .footer{
     padding: 100px 0;
 }
+.footer-content{
+    text-align: center;
+}
 .footer-list{
     padding-left: 0;
 }
@@ -175,6 +178,9 @@ header{
     }
     .card-img{
         width: 200px;
+    }
+    .footer-content{
+        text-align: left;
     }
 }
 @media all and (min-width: 992px){
