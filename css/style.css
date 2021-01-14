@@ -97,7 +97,35 @@ header{
     margin-bottom: 15px;
 }
 
+/* footer */
+.footer{
+    padding: 100px 0;
+}
+.footer-text{
+    margin: 15px 0;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #A4BC46;
+    display: inline-block;
+    position: relative;
+    transition: all .5s ease;
+}
+.social-icon a{
+    color: #ffffff;
+}
+.social-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.social-icon:hover {
+    background-color: #198754;
+}
 @media all and (min-width: 576px){
     .navbar-brand img{
         height: 40px;
@@ -128,6 +156,9 @@ header{
     }
     .card-img{
         width: 200px;
+    }
+    .footer-text{
+        margin: 0;
     }
 }
 @media all and (min-width: 992px){
