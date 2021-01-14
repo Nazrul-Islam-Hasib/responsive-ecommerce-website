@@ -3,11 +3,19 @@ body{
     color: #3e3e3e;
     background-color: white;
 }
-h1, h2{
+h1, h2, h4{
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
 }
-
+.section-pad{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.section-header{
+    font-size: 48px;
+    color: #363958;
+    padding-bottom: 30px;
+}
 .btn-img{
     width: 30px;
 }
@@ -15,6 +23,14 @@ h1, h2{
     background-color: #A4BC46;
     border-color: #A4BC46;
 }
+.box-shadow{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.5);
+}
+
+
 
 header{
     background-color: #FFFBF0;
@@ -41,4 +57,26 @@ header{
 .banner-img{
     width: 500px;
     height: auto;
+}
+
+
+/* card */
+
+.card-img{
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #F1F1F1;
+    border-radius: 10%;
+}
+.card h4{
+    color: #FABE4C;
+    font-size: 36px;
+}
+
+/* about */
+.about-box-img{
+    width: 80px;
+    height: auto;
+    margin: 0 auto;
 }
