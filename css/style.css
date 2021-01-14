@@ -1,3 +1,4 @@
+/* common css starts  */
 body{
     font-family: 'Roboto', sans-serif;
     color: #3e3e3e;
@@ -6,6 +7,12 @@ body{
 h1, h2, h4{
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
+}
+ul, li, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
 }
 .section-pad{
     padding-top: 150px;
@@ -28,7 +35,7 @@ h1, h2, h4{
     box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.5);
 }
 
-
+/* common css ends */
 
 header{
     background-color: #FFFBF0;
@@ -97,12 +104,20 @@ header{
     margin-bottom: 15px;
 }
 
-/* footer */
+/* footer starts */
 .footer{
     padding: 100px 0;
 }
+.footer-list{
+    padding-left: 0;
+}
 .footer-text{
-    margin: 15px 0;
+    margin-top: 20px;
+    padding: 40px 0;
+    border-top: 1px solid #DADEE3;
+}
+.footer a{
+    color: #3e3e3e;
 }
 .social-icon {
     width: 30px;
@@ -126,6 +141,10 @@ header{
 .social-icon:hover {
     background-color: #198754;
 }
+/* footer ends  */
+
+/* resposive code here  */
+
 @media all and (min-width: 576px){
     .navbar-brand img{
         height: 40px;
@@ -156,9 +175,6 @@ header{
     }
     .card-img{
         width: 200px;
-    }
-    .footer-text{
-        margin: 0;
     }
 }
 @media all and (min-width: 992px){
